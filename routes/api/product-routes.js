@@ -1,3 +1,6 @@
+// to perform create, read, update, and delete operations using your Sequelize models.
+
+
 const router = require('express').Router();
 const { Product, Category, Tag, ProductTag } = require('../../models');
 
